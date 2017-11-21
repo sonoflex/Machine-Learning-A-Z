@@ -5,6 +5,6 @@ Created on Mon Nov 20 17:50:31 2017
 @author: mir
 """
 
-# linear regression
+# Multiple linear regression
 
-# feature branch?
+
