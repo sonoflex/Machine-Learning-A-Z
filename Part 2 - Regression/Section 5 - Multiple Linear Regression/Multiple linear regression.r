@@ -21,6 +21,9 @@ test_set = subset(dataset, split == FALSE)
 regressor = lm(formula = Profit ~ R.D.Spend + Marketing.Spend,
                data = dataset)
 summary(regressor)
+regressor = lm(formula = Profit ~ R.D.Spend,
+               data = dataset)
+summary(regressor)
 
 # Predicting the testset results
 y_pred = predict(regressor, newdata = test_set)
